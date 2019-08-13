@@ -4,7 +4,7 @@ import dash_html_components as html
 import plotly.graph_objs as go
 
 ########### Set up the chart
-skanky beers=['Coors', 'Miller Lite', 'Bud Light', 'Budwiser']
+beers=['Coors', 'Miller Lite', 'Bud Light', 'Budwiser']
 ibu_values=[12, 15, 20, 8]
 abv_values=[5.4, 7.1, 9.2, 4.3]
 color1='darkblue'
@@ -37,7 +37,7 @@ app = dash.Dash()
 server = app.server
 
 app.layout = html.Div(children=[
-    html.H1('Flying Dog Beers'),
+    html.H1('Skanky Beers'),
     dcc.Graph(
         id='flyingdog',
         figure=beer_fig
