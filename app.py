@@ -7,7 +7,7 @@ import plotly.graph_objs as go
 skanky beers=['Coors', 'Miller Lite', 'Bud Light', 'Budwiser']
 ibu_values=[12, 15, 20, 8]
 abv_values=[5.4, 7.1, 9.2, 4.3]
-color1='navyblue'
+color1='darkblue'
 color2='lightblue'
 
 bitterness = go.Bar(
